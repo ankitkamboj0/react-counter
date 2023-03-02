@@ -1,0 +1,45 @@
+@import 'buttons.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.flex{
+    display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-1{
+    flex:1
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.count-label{
+    color: #fff;
+    font-size: 40px;
+}
+.counter-container{
+    background: #2c3e50;
+    border-radius: 16px;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+}

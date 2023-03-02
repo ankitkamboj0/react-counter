@@ -2,14 +2,15 @@
   "name": "react-counter",
   "version": "1.0.0",
   "description": "This is the counter",
-  "main": "main.js",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ankit kamboj",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
