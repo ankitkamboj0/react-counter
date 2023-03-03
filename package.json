@@ -5,7 +5,7 @@
   "homepage": "https://ankitkamboj0.github.io/react-counter/",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build src/index.html --public-url",
+    "build": "parcel build index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
