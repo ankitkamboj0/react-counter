@@ -2,13 +2,18 @@
   "name": "react-counter",
   "version": "1.0.0",
   "description": "This is the counter",
-  "homepage": "https://ankitkamboj0.github.io/react-counter/",
+  "homepage": "https://ankitkamboj0.github.io/react-counter",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "ghclean":"gh-pages-clean gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankitkamboj0/react-counter.git/"
   },
   "author": "Ankit kamboj",
   "license": "ISC",
