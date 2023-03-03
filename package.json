@@ -2,7 +2,7 @@
   "name": "react-counter",
   "version": "1.0.0",
   "description": "This is the counter",
-  "homepage": "https://ankitkamboj0.github.io/",
+  "homepage": "https://ankitkamboj0.github.io/react-counter/",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
